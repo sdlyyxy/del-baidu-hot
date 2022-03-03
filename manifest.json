@@ -1,0 +1,16 @@
+{
+
+    "manifest_version": 2,
+    "name": "del-baidu-hot",
+    "version": "1.0",
+  
+    "description": "Auto remove Baidu Search hot news",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://www.baidu.com/*"],
+        "js": ["borderify.js"]
+      }
+    ]
+  
+  }
